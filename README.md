@@ -2,9 +2,9 @@
 
 Device driver that can handle LED on Raspberry Pi.
 
-# Operation check
+## Operation check
 
-$ make
+$ make  
 $ sudo insmod myled.ko  
 $ sudo chmod 666 /dev/myled0  
 $ echo 1 > /dev/myled0          //flash  
